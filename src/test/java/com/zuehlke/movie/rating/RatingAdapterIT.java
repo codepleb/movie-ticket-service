@@ -21,6 +21,8 @@ public class RatingAdapterIT {
 
         List<Rating> ratings = ratingAdapter.getRatingsById(1);
 
+        System.out.println(ratings);
+
         assertThat(ratings, hasSize(3));
         assertThat(ratings, hasItem(new Rating("Internet Movie Database", "8.3/10")));
     }
