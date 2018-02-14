@@ -1,4 +1,4 @@
-package com.zuehlke.movieticketservice;
+package com.zuehlke;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,5 +12,4 @@ public class HelloController {
     public String home() {
         return "Hello World!";
     }
-
 }
